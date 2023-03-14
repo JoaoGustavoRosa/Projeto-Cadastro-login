@@ -8,6 +8,17 @@ body{
     background-attachment: fixed;
     background-image: linear-gradient( 100deg , #025159, #8BD9D9);
 }
+#abo{
+    width: 100px;
+}
+
+#Secret{
+    position: relative;
+    font-size: 10px;
+    color: #da6d07;
+    bottom: 25px;
+    left: 25px;
+}
 
 .Principal{
     position: relative;
@@ -16,7 +27,7 @@ body{
     width: 20px;
     margin: auto;
     font-size: 30px;
-    top: 150px;
+    top: 15px;
     border-radius: 20px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
     
@@ -26,4 +37,42 @@ body{
     position: relative;
     bottom: 280px;
     right: 35px;
+}
+
+.Cadastro{
+    position: relative;
+    font-size: 20px;
+    width: 250px;
+    bottom: 250px;
+    right: 100px;
+}
+
+#texto{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border-top-color: white;
+    border-left-color: white;
+    font-size: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+}
+
+#em{
+    position: relative;
+    right: 75px;
+    top: 32px;
+    font-size: 25px;
+}
+
+.email{
+    position: relative;
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border-top-color: white;
+    border-left-color: white;
+    right: 190px;
+    bottom: 200px;
+    font-size: 20px;
 }
