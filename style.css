@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+    background-image: linear-gradient( 100deg , #02373d, #8BD9D9, rgb(5, 134, 63));
+}
+
+#abo{
+    width: 100px;
+}
+
+#para{
+    position: relative;
+    left: 310px;
+    font-size: 40px;
+    bottom: 30px;
+}
+
+.container{
+    position: relative;
+    background-image: linear-gradient(to bottom, #02574e, #05e0b8, rgb(165, 108, 2));
+    padding: 300px;
+    width: 20px;
+    margin: auto;
+    font-size: 30px;
+    top: 15px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
+}
+
+.nome{
+    position: relative;
+    width: 435px;
+    right: 180px;
+    bottom: 300px;
+}
+
+#video1{
+    position: relative;
+    right: 240px;
+    bottom: 250px;
+}
+
+#video3{
+    position: relative;
+    right: 240px;
+    bottom: 250px;
+}
