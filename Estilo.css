@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    flex-direction: row;
 }
 
 body{
@@ -9,21 +10,20 @@ body{
     background-image: linear-gradient( 100deg , #025159, #8BD9D9);
 }
 
-.Principal{
-    position: relative;
-    background-image: linear-gradient(to bottom, #038C7F, #04BF9D);
-    padding: 300px;
-    width: 20px;
-    margin: auto;
-    font-size: 30px;
-    top: 150px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.432);
-    
+header{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 4px;
+    left: 2px;
+    border: 2px solid;
+    width: 1000px;
+    height: 180px;
+    justify-items: right;
 }
 
-.container{
-    position: relative;
-    bottom: 280px;
-    right: 35px;
+.Login{
+    position: absolute;
+    justify-items: right;
+    
 }
